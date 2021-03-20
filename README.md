@@ -21,3 +21,15 @@ yarn create next-app --example api-routes-apollo-server-and-client api-routes-ap
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+Deploy it to AWS (S3, Lambda@Edge, Cloudfront): 
+
+```bash
+serverless
+```
+
+Undeploy from AWS:
+```bash
+serverless remove
+```
+(+ remove lambda@edge at hand)
